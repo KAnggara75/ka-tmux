@@ -1,0 +1,24 @@
+# Copyright (c) 2022-present Kelvin Anggara <kanggara@kanggara.me>(https://kanggara.me)
+
+# Project:    KAnggara Tmux Theme
+# Repository: https://github.com/kanggara75/ka-tmux
+# License:    MIT
+
+# ++++++++++++++++++++++
+# + Base Configuration +
+# ++++++++++++++++++++++
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 2
+indent_style = space
+insert_final_newline = true
+max_line_length = 120
+trim_trailing_whitespace = true
+
+# +++++++++++++
+# + Languages +
+# +++++++++++++
+# +++ Markdown +++
+[*.{md,gfm}]
+trim_trailing_whitespace = false
