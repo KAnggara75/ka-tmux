@@ -7,7 +7,6 @@
 <img src="https://img.shields.io/github/repo-size/kanggara75/ka-tmux.svg?style=flat-square&label=Repo Size&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/>
 <br>
 <img src="https://img.shields.io/github/release/kanggara75/ka-tmux.svg?style=flat-square&label=Release&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/>
-<img src="https://img.shields.io/github/release/kanggara75/ka-tmux.svg?style=flat-square&label=Changelog&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/>
 <br><br>
 <b>My tmux Configuration</b>
 </p>
