@@ -1,4 +1,4 @@
-# KAnggara Zsh & tmux Theme
+# KAnggara tmux Theme with zsh and oh-my-zsh
 
 <p align="center"><a href="https://kanggara.me" target="_blank"><img src="https://avatars.githubusercontent.com/kanggara75" width=100px/></a></p>
 
