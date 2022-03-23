@@ -13,9 +13,9 @@ DISABLE_UPDATE_PROMPT="true"
 
 plugins=(git zsh-autosuggestions)
 
-source $ZSH/oh-my-zsh.sh
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=cyan'
 
-export LANG=en_US.UTF-8
+source $ZSH/oh-my-zsh.sh
 
 # export JAVA_HOME="/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home"
 # export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home
@@ -59,11 +59,12 @@ alias ohmyzsh="code ~/.oh-my-zsh"
 alias reload="source ~/.zshrc"
 
 # Cusom Alias
-alias kuroject="cd /Volumes/DATA/kuroject"
-alias ka75="cd /Volumes/DATA/kuroject/KAnggara75"
-alias kan="cd /Volumes/DATA/kuroject/KAnggara"
+alias q="exit"
 alias mku="cd /Users/k/Work/kuroject_mac"
+alias kuroject="cd /Volumes/DATA/kuroject"
 alias 2022="cd /Volumes/DATA/Downloads/2022"
+alias kan="cd /Volumes/DATA/kuroject/KAnggara"
+alias ka75="cd /Volumes/DATA/kuroject/KAnggara75"
 alias gotmp-web="/Users/k/Work/kuroject_mac/KAnggara/gotmp/web"
 alias gotmp-app="/Users/k/Work/kuroject_mac/KAnggara/gotmp/app"
 
