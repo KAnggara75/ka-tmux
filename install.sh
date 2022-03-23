@@ -161,10 +161,10 @@ rclone()
 {
   echo "Cloning Repo."
   git clone $KA_REPO --depth=1 $KA_DIR
-  rm -rf ~/.tmux/themes/ka-tmux/docs && rm -rf ~/.tmux/themes/ka-tmux/.git
-  rm ~/.tmux/themes/ka-tmux/.editorconfig && rm ~/.tmux/themes/ka-tmux/CHANGELOG.md
-  rm ~/.tmux/themes/ka-tmux/LICENSE && rm ~/.tmux/themes/ka-tmux/README.md && rm ~/.tmux/themes/ka-tmux/install.sh
-  mv ~/.tmux/themes/ka-tmux/tmux.conf ~/.tmux.conf
+  rm -rf ${KA_DIR}/docs && rm -rf ${KA_DIR}/.git
+  rm ${KA_DIR}/.editorconfig && rm ${KA_DIR}/CHANGELOG.md
+  rm ${KA_DIR}/LICENSE && rm ${KA_DIR}/README.md && rm ${KA_DIR}/install.sh
+  mv ${KA_DIR}/tmux.conf ~/.tmux.conf
   runconfig
 }
 
@@ -181,6 +181,7 @@ runconfig()
     czshconfig
   elif [ $choice = "n" ]
   then
+    rm ${KA_DIR}/zshrc
     ctmuxa
   elif [ $choice = "q" ]
   then
