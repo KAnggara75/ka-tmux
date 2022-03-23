@@ -89,7 +89,6 @@ czsh()
     echo "Installing Zsh."
     brew install zsh
   fi
-  git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
   ctmux
 }
 
@@ -129,6 +128,7 @@ ohzsh()
     echo "Installing Oh-my-zsh"
     curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
   fi
+  git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
   ckadir
 }
 
