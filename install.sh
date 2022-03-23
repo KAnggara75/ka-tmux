@@ -89,6 +89,7 @@ czsh()
     echo "Installing Zsh."
     brew install zsh
   fi
+  git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
   ctmux
 }
 
