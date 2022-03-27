@@ -80,7 +80,7 @@ cgit()
 
 cexa()
 {
-  if (zsh --version) | sort -Vk3 | tail -1 | grep -q zsh
+  if (exa -v) | sort -Vk3 | tail -1 | grep -q zsh
   then
     echo -n "Exa is already installed. => "
     exa -v
