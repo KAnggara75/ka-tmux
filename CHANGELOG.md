@@ -1,3 +1,9 @@
+# 0.2.1
+
+## Add
+
+1. exa - A modern replacement for ls
+
 # 0.2.0
 
 ## Add

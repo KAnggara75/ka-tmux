@@ -43,6 +43,7 @@ Visit the [official website][ka] to learn all about the [fluidly merging appeara
 - [zsh](https://zsh.org/)
 - [brew](https://brew.sh/)
 - [Powerline Fonts](https://github.com/powerline/fonts#quick-installation)
+- [Exa](https://the.exa.website/)
 
 ## Features
 

@@ -75,6 +75,20 @@ cgit()
     echo "Installing Git."
     brew install git
   fi
+  cexa
+}
+
+cexa()
+{
+  if (zsh --version) | sort -Vk3 | tail -1 | grep -q zsh
+  then
+    echo -n "Exa is already installed. => "
+    exa -v
+  else
+    echo "Exa is not installed."
+    echo "Installing Exa."
+    brew install exa
+  fi
   czsh
 }
 
